@@ -1,0 +1,59 @@
+-- create table
+CREATE TABLE reports
+(
+  	id INT PRIMARY KEY NOT NULL auto_increment,
+	title VARCHAR(50),
+	imageurl VARCHAR(50),
+	users VARCHAR(50),
+	rating VARCHAR(5),
+	category VARCHAR(150),
+	location VARCHAR(200),
+	city VARCHAR(100),
+	upvotes VARCHAR(100),
+	downvotes VARCHAR(100),
+	flags VARCHAR(100),
+	flagip VARCHAR(100),
+	ip VARCHAR(50),
+	notes VARCHAR(200),
+	date VARCHAR(50)
+);
+
+
+CREATE TABLE users
+(
+  	id INT PRIMARY KEY NOT NULL auto_increment,
+	name VARCHAR(50),
+	username VARCHAR(50),
+	userid VARCHAR(50),
+	userimg VARCHAR(50),
+	email VARCHAR(50),
+	repost VARCHAR(5),
+	category VARCHAR(150),
+	location VARCHAR(200),
+	city VARCHAR(100),
+	upvotes VARCHAR(100),
+	downvotes VARCHAR(100),
+	flags VARCHAR(100),
+	flagip VARCHAR(100),
+	ip VARCHAR(50),
+	about VARCHAR(200),
+	date VARCHAR(50)
+);
+
+
+CREATE TABLE category
+(
+  	id INT PRIMARY KEY NOT NULL auto_increment,
+	name VARCHAR(50)
+);
+
+
+tags
+graffiti
+potholes
+light out
+damage properties 
+broken glass
+broken pile
+dead animal
+rate
